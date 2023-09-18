@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 2%;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #6ab7f5);
+    min-height: 100vh;
+}
+
+#game-container {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#question-container {
+    display: none; /* Inicialmente oculto até o jogo começar */
+    background-color: #387db6;
+    padding: 80px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#question-container h2 {
+    padding-bottom: 30px;
+}
+
+#answer-container {
+    margin-top: 20px;
+}
+
+button {
+    width: 30%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.imagem img {
+    width: 15vw;
+    margin-top: 30px;
+}
+
+#restart-button {
+    display: none; /* Inicialmente oculto até o jogo terminar */
+    margin-top: 20px;
+}
+
+#restart-button {
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#result {
+    font-size: 24px; /* Substitua '24px' pelo tamanho desejado */
+}
+
+#start-button {
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
